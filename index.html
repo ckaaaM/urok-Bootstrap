@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+</head>
+<body>
+
+    <button type="button" class="btn btn-primary">Кнопка</button>
+    <button type="button" class="btn btn-success">Успешно</button>
+    <button type="button" class="btn btn-danger">Ошибка</button>
+    <button type="button" class="btn btn-outline-info">Информация</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-sm">Большая кнопка</button>
+    <button type="button" class="btn btn-warning btn-sm">Предупреждение</button>
+    <button type="button" class="btn btn-dark btn-lg btn-block">Темная кнопка</button><br>
+
+
+    <button type="button" class="btn">Кнопка 1</button>
+    <button type="button" class="btn btn-outline-info">Кнопка 2</button>
+    <button type="button" class="btn btn-success">Кнопка 4</button>
+    <button type="button" class="btn btn-danger">Кнопка 3</button>
+    <button type="button" class="btn btn-warning btn-sm">Кнопка 5</button><br><br>
+
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Строительство и ремонт</a></li>
+        <li class="breadcrumb-item"><a href="#">Инструменты</a></li>
+        <li class="breadcrumb-item active"><a href="#">Элктроинструменты</a></li>
+        <li class="breadcrumb-item active">Перфораторы</li>
+    </ul><br><br>
+
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+          О нас
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Наша история</a>
+          <a class="dropdown-item" href="#">Наша команда</a>
+          <a class="dropdown-item" href="#">Контакты</a>
+        </div>
+      </div><br><br>
+
+      <div class="alert alert-success">Уведомление об успехе</div>
+
+      <div class="alert alert-success">
+        <strong>Поздравляем!</strong> Вы зарегистрировались на <a href="#" class="alert-link">сайте</a>!
+      </div>
+      
+      <div class="alert alert-success">
+        <h4 class="alert-heading">Отлично сработано!</h4>
+        <p>О да, Вы успешно прочитали это важное предупреждающее сообщение. Этот пример текста будет длиться немного дольше, чтобы Вы могли увидеть, как интервалы в предупреждении работают с этим типом контента.</p>
+        <hr>
+        <p>Когда Вам нужно, обязательно используйте маржинальные утилиты, чтобы все было в порядке и порядке.</p>
+      </div>
+
+      <div class="alert alert-warning alert-dismissible fade show">
+        <strong>Внимание!</strong> Вам следует проверить некоторые из этих полей.
+        <button class="close" data-dismiss="alert">
+          <span>&times;</span>
+        </button>
+      </div>
+
+      <a data-toggle="collapse" href="#footwear">Обувь</a>
+    <div class="collapse" id="footwear">
+        <p>Обувь относится к предметам одежды для ног, изначально служит для защиты от 
+    неблагоприятных воздействий окружающей среды, обычно в отношении поверхности 
+    и температуры.</p>
+    </div><br>
+
+    <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#footwear"
+    aria-expanded="false" aria-controls="footwear">Обувь</button>
+    <div class="collapse" id="footwear">
+        <p>Обувь относится к предметам одежды для ног, изначально служит для защиты от 
+      неблагоприятных воздействий окружающей среды, обычно в отношении поверхности 
+      и температуры.</p>
+    </div>
+
+    <div id="faq">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-title">
+              <a data-toggle="collapse" data-parent="#faq" href="#answerOne">
+                Что если ботинки большие для моих ног?
+              </a>
+           </h5>
+          </div>
+          <div id="answerOne" class="collapse show">
+           <div class="card-body">
+             Набейте ботинки газетами или салфетками.
+           </div>
+          </div>
+        </div>
+        <div class="card">
+        <div class="card-header">
+            <h5 class="card-title">
+              <a data-toggle="collapse" data-parent="#faq" href="#answerOne">
+                Могу я носить ботинки в помещении?
+              </a>
+           </h5>
+        </div>
+        <div id="answerOne" class="collapse show">
+         <div class="card-body">
+           Можно, если они не грязные
+         </div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">
+                  <a data-toggle="collapse" data-parent="#faq" href="#answerOne">
+                    Что делать, если ботинки скользят при намокании?
+                  </a>
+               </h5>
+            </div>
+            <div id="answerOne" class="collapse show">
+             <div class="card-body">
+               Высуши их 
+             </div>
+            </div>
+            </div>
+      </div>
+      </div>
+
+      <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
